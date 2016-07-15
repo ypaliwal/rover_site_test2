@@ -2976,6 +2976,10 @@ select {
     margin-bottom: 12px;
   }
 
+  #header {
+    background-color: #353738;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -2988,6 +2992,10 @@ select {
     position: absolute;
     left: 0px;
   }
+
+  #header {
+    background-color: #353738;
+  }
 }
 
 @media (min-width: 992px) {
@@ -2997,11 +3005,15 @@ select {
   }
 
   .hwinfopanels {
-      .services-item {
-        padding-left: 20%;
-        padding-right: 20%;
-      }
+    .services-item {
+      padding-left: 20%;
+      padding-right: 20%;
     }
+  }
+
+  .promo {
+    height: 585px;
+  }
 }
 
 @media (min-width: 1200px) {
